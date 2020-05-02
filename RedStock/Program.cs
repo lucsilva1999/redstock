@@ -16,7 +16,9 @@ namespace RedStock
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new formPrincipalRedStock());
+            Application.Run(new telaLogin());
+            //Application.Run(new formPrincipalRedStock());
+            
         }
     }
 }
