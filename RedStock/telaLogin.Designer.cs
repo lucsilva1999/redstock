@@ -46,6 +46,7 @@
             // btnLoginEntrar
             // 
             this.btnLoginEntrar.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.btnLoginEntrar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnLoginEntrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLoginEntrar.ForeColor = System.Drawing.Color.Black;
             this.btnLoginEntrar.Location = new System.Drawing.Point(119, 187);
@@ -59,6 +60,7 @@
             // btnLoginSair
             // 
             this.btnLoginSair.BackColor = System.Drawing.Color.Crimson;
+            this.btnLoginSair.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnLoginSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLoginSair.ForeColor = System.Drawing.Color.Black;
             this.btnLoginSair.Location = new System.Drawing.Point(283, 187);
@@ -145,8 +147,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(555, 268);
-            this.ControlBox = false;
+            this.CancelButton = this.btnLoginSair;
+            this.ClientSize = new System.Drawing.Size(537, 268);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblSenha);
@@ -157,6 +159,7 @@
             this.Controls.Add(this.btnLoginEntrar);
             this.Controls.Add(this.imgRedStockLogo);
             this.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
