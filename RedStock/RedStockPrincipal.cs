@@ -48,6 +48,8 @@ namespace RedStock
 
         private void verificarAtualizaçõesToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            
+            //Adicionar código para abrir o prompt e executar o .exe do instalador
             //string strCmdText;
             //strCmdText = "echo Oscar";
             //System.Diagnostics.Process.Start("CMD.exe", strCmdText);
