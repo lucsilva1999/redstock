@@ -52,7 +52,6 @@
             // menuRedStock
             // 
             this.menuRedStock.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.menuRedStock.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuRedStock.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuRedStock.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.inicioToolStripMenuItem,
@@ -63,7 +62,7 @@
             this.menuRedStock.Location = new System.Drawing.Point(0, 0);
             this.menuRedStock.Name = "menuRedStock";
             this.menuRedStock.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.menuRedStock.Size = new System.Drawing.Size(800, 33);
+            this.menuRedStock.Size = new System.Drawing.Size(800, 24);
             this.menuRedStock.TabIndex = 0;
             this.menuRedStock.Text = "menuRedStock";
             this.menuRedStock.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuRedStock_ItemClicked);
@@ -74,7 +73,7 @@
             this.alterarMinhaSenhaToolStripMenuItem,
             this.sairToolStripMenuItem});
             this.inicioToolStripMenuItem.Name = "inicioToolStripMenuItem";
-            this.inicioToolStripMenuItem.Size = new System.Drawing.Size(70, 29);
+            this.inicioToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
             this.inicioToolStripMenuItem.Text = "Início";
             this.inicioToolStripMenuItem.Click += new System.EventHandler(this.inícioToolStripMenuItem_Click);
             // 
@@ -82,14 +81,14 @@
             // 
             this.alterarMinhaSenhaToolStripMenuItem.Image = global::RedStock.Properties.Resources.fingerprint;
             this.alterarMinhaSenhaToolStripMenuItem.Name = "alterarMinhaSenhaToolStripMenuItem";
-            this.alterarMinhaSenhaToolStripMenuItem.Size = new System.Drawing.Size(271, 34);
+            this.alterarMinhaSenhaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.alterarMinhaSenhaToolStripMenuItem.Text = "Alterar minha senha";
             // 
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Image = global::RedStock.Properties.Resources.exit_1;
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(271, 34);
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.sairToolStripMenuItem.Text = "Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
@@ -100,28 +99,28 @@
             this.gerenciarUsuariosToolStripMenuItem,
             this.verificarTransacoesToolStripMenuItem});
             this.produtosToolStripMenuItem.Name = "produtosToolStripMenuItem";
-            this.produtosToolStripMenuItem.Size = new System.Drawing.Size(90, 29);
+            this.produtosToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.produtosToolStripMenuItem.Text = "Sistema";
             // 
             // cadastrarUsuarioToolStripMenuItem
             // 
             this.cadastrarUsuarioToolStripMenuItem.Image = global::RedStock.Properties.Resources.users;
             this.cadastrarUsuarioToolStripMenuItem.Name = "cadastrarUsuarioToolStripMenuItem";
-            this.cadastrarUsuarioToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.cadastrarUsuarioToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.cadastrarUsuarioToolStripMenuItem.Text = "Cadastrar Usuário";
             // 
             // gerenciarUsuariosToolStripMenuItem
             // 
             this.gerenciarUsuariosToolStripMenuItem.Image = global::RedStock.Properties.Resources.agenda;
             this.gerenciarUsuariosToolStripMenuItem.Name = "gerenciarUsuariosToolStripMenuItem";
-            this.gerenciarUsuariosToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.gerenciarUsuariosToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.gerenciarUsuariosToolStripMenuItem.Text = "Gerenciar Usuários";
             // 
             // verificarTransacoesToolStripMenuItem
             // 
             this.verificarTransacoesToolStripMenuItem.Image = global::RedStock.Properties.Resources.route;
             this.verificarTransacoesToolStripMenuItem.Name = "verificarTransacoesToolStripMenuItem";
-            this.verificarTransacoesToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.verificarTransacoesToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.verificarTransacoesToolStripMenuItem.Text = "Verificar transações";
             // 
             // utilitarioToolStripMenuItem
@@ -131,28 +130,28 @@
             this.cotacaoDeMoedasToolStripMenuItem,
             this.pesquisarCPNJToolStripMenuItem});
             this.utilitarioToolStripMenuItem.Name = "utilitarioToolStripMenuItem";
-            this.utilitarioToolStripMenuItem.Size = new System.Drawing.Size(94, 29);
+            this.utilitarioToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
             this.utilitarioToolStripMenuItem.Text = "Utilitário";
             // 
             // checarCEPToolStripMenuItem
             // 
             this.checarCEPToolStripMenuItem.Image = global::RedStock.Properties.Resources.search_1;
             this.checarCEPToolStripMenuItem.Name = "checarCEPToolStripMenuItem";
-            this.checarCEPToolStripMenuItem.Size = new System.Drawing.Size(273, 34);
+            this.checarCEPToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
             this.checarCEPToolStripMenuItem.Text = "Pesquisar CEP";
             // 
             // cotacaoDeMoedasToolStripMenuItem
             // 
             this.cotacaoDeMoedasToolStripMenuItem.Image = global::RedStock.Properties.Resources.internet;
             this.cotacaoDeMoedasToolStripMenuItem.Name = "cotacaoDeMoedasToolStripMenuItem";
-            this.cotacaoDeMoedasToolStripMenuItem.Size = new System.Drawing.Size(273, 34);
+            this.cotacaoDeMoedasToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
             this.cotacaoDeMoedasToolStripMenuItem.Text = "Cotação de Moedas";
             // 
             // pesquisarCPNJToolStripMenuItem
             // 
             this.pesquisarCPNJToolStripMenuItem.Image = global::RedStock.Properties.Resources.notepad;
             this.pesquisarCPNJToolStripMenuItem.Name = "pesquisarCPNJToolStripMenuItem";
-            this.pesquisarCPNJToolStripMenuItem.Size = new System.Drawing.Size(273, 34);
+            this.pesquisarCPNJToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
             this.pesquisarCPNJToolStripMenuItem.Text = "Pesquisar CPNJ";
             // 
             // estoqueToolStripMenuItem
@@ -162,34 +161,35 @@
             this.pesquisarTransferenciasToolStripMenuItem,
             this.pesquisarMateriaPrimaToolStripMenuItem});
             this.estoqueToolStripMenuItem.Name = "estoqueToolStripMenuItem";
-            this.estoqueToolStripMenuItem.Size = new System.Drawing.Size(92, 29);
+            this.estoqueToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
             this.estoqueToolStripMenuItem.Text = "Estoque";
             // 
             // pesquisarProdutoToolStripMenuItem
             // 
             this.pesquisarProdutoToolStripMenuItem.Image = global::RedStock.Properties.Resources.list;
             this.pesquisarProdutoToolStripMenuItem.Name = "pesquisarProdutoToolStripMenuItem";
-            this.pesquisarProdutoToolStripMenuItem.Size = new System.Drawing.Size(304, 34);
+            this.pesquisarProdutoToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
             this.pesquisarProdutoToolStripMenuItem.Text = "Pesquisar Produto";
             // 
             // pesquisarTransferenciasToolStripMenuItem
             // 
             this.pesquisarTransferenciasToolStripMenuItem.Name = "pesquisarTransferenciasToolStripMenuItem";
-            this.pesquisarTransferenciasToolStripMenuItem.Size = new System.Drawing.Size(304, 34);
+            this.pesquisarTransferenciasToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
             this.pesquisarTransferenciasToolStripMenuItem.Text = "Pesquisar Transferências";
             // 
             // pesquisarMateriaPrimaToolStripMenuItem
             // 
             this.pesquisarMateriaPrimaToolStripMenuItem.Name = "pesquisarMateriaPrimaToolStripMenuItem";
-            this.pesquisarMateriaPrimaToolStripMenuItem.Size = new System.Drawing.Size(304, 34);
+            this.pesquisarMateriaPrimaToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
             this.pesquisarMateriaPrimaToolStripMenuItem.Text = "Pesquisar Matéria-Prima";
             // 
             // verificarAtualizacoesToolStripMenuItem
             // 
             this.verificarAtualizacoesToolStripMenuItem.ForeColor = System.Drawing.Color.Firebrick;
             this.verificarAtualizacoesToolStripMenuItem.Name = "verificarAtualizacoesToolStripMenuItem";
-            this.verificarAtualizacoesToolStripMenuItem.Size = new System.Drawing.Size(193, 29);
+            this.verificarAtualizacoesToolStripMenuItem.Size = new System.Drawing.Size(130, 20);
             this.verificarAtualizacoesToolStripMenuItem.Text = "Verificar Atualizações";
+            this.verificarAtualizacoesToolStripMenuItem.Visible = false;
             this.verificarAtualizacoesToolStripMenuItem.Click += new System.EventHandler(this.verificarAtualizaçõesToolStripMenuItem_Click);
             // 
             // formPrincipalRedStock

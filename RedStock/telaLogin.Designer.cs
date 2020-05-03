@@ -49,7 +49,7 @@
             this.btnLoginEntrar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnLoginEntrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLoginEntrar.ForeColor = System.Drawing.Color.Black;
-            this.btnLoginEntrar.Location = new System.Drawing.Point(119, 187);
+            this.btnLoginEntrar.Location = new System.Drawing.Point(119, 203);
             this.btnLoginEntrar.Name = "btnLoginEntrar";
             this.btnLoginEntrar.Size = new System.Drawing.Size(138, 50);
             this.btnLoginEntrar.TabIndex = 1;
@@ -63,7 +63,7 @@
             this.btnLoginSair.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnLoginSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLoginSair.ForeColor = System.Drawing.Color.Black;
-            this.btnLoginSair.Location = new System.Drawing.Point(283, 187);
+            this.btnLoginSair.Location = new System.Drawing.Point(283, 203);
             this.btnLoginSair.Name = "btnLoginSair";
             this.btnLoginSair.Size = new System.Drawing.Size(138, 50);
             this.btnLoginSair.TabIndex = 2;
@@ -134,7 +134,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(140, 147);
+            this.pictureBox2.Location = new System.Drawing.Point(140, 151);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(30, 26);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -168,6 +168,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RedStock - Gerenciamento de Produtos";
             this.Load += new System.EventHandler(this.telaLogin_Load);
+            //this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Enter);
             ((System.ComponentModel.ISupportInitialize)(this.imgRedStockLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

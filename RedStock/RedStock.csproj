@@ -140,10 +140,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Formulários\Login\" />
-    <Folder Include="Imagens\Icons\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\icon.png" />
   </ItemGroup>
